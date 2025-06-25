@@ -1,5 +1,7 @@
 # ComEd Energy Pricing Plugin for Stream Deck
 
+![stream-deck](docs/stream-deck.jpg)
+
 A real-time energy pricing plugin for Elgato Stream Deck that displays current ComEd (Commonwealth Edison) electricity prices with trend indicators to help you make informed decisions about energy usage.
 
 ## Features
