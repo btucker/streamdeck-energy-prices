@@ -1,0 +1,45 @@
+{
+	"Name": "ComEd Pricing",
+	"Version": "0.1.0.0",
+	"Author": "Quotably, LLC",
+	"Actions": [
+		{
+			"Name": "ComEd Pricing Display",
+			"UUID": "com.quotably.comed-pricing.display",
+			"Icon": "imgs/actions/pricing/icon",
+			"Tooltip": "Displays real-time ComEd energy prices (5-minute and hourly average).",
+			"Controllers": [
+				"Keypad"
+			],
+			"States": [
+				{
+					"TitleAlignment": "middle"
+				}
+			]
+		}
+	],
+	"Category": "ComEd Pricing",
+	"CategoryIcon": "imgs/plugin/category-icon",
+	"CodePath": "bin/plugin.js",
+	"Description": "Real-time energy prices from ComEd",
+	"Icon": "imgs/plugin/marketplace",
+	"SDKVersion": 2,
+	"Software": {
+		"MinimumVersion": "6.5"
+	},
+	"OS": [
+		{
+			"Platform": "mac",
+			"MinimumVersion": "12"
+		},
+		{
+			"Platform": "windows",
+			"MinimumVersion": "10"
+		}
+	],
+	"Nodejs": {
+		"Version": "20",
+		"Debug": "enabled"
+	},
+	"UUID": "com.quotably.comed-pricing"
+}
